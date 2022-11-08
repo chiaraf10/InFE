@@ -6,4 +6,5 @@ d = { 'settings': { 'branch': 'main',
                 'git_url': 'https://github.com/chiaraf10/InFE',
                 'lib_path': 'InFE'},
   'syms': { 'InFE.core': {'InFE.core.foo': ('segmentation.html#foo', 'InFE/core.py')},
+            'InFE.hello': {'InFE.hello.say_hello': ('hello.html#say_hello', 'InFE/hello.py')},
             'InFE.segmentation': {'InFE.segmentation.foo': ('segmentation.html#foo', 'InFE/segmentation.py')}}}
