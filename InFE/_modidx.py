@@ -5,4 +5,5 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://chiaraf10.github.io',
                 'git_url': 'https://github.com/chiaraf10/InFE',
                 'lib_path': 'InFE'},
-  'syms': {'InFE.core': {'InFE.core.foo': ('core.html#foo', 'InFE/core.py')}}}
+  'syms': { 'InFE.core': {'InFE.core.foo': ('segmentation.html#foo', 'InFE/core.py')},
+            'InFE.segmentation': {'InFE.segmentation.foo': ('segmentation.html#foo', 'InFE/segmentation.py')}}}
