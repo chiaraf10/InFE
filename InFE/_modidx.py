@@ -10,4 +10,4 @@ d = { 'settings': { 'branch': 'main',
                             'InFE.hello.HelloSayer.__init__': ('hello.html#hellosayer.__init__', 'InFE/hello.py'),
                             'InFE.hello.HelloSayer.say': ('hello.html#hellosayer.say', 'InFE/hello.py'),
                             'InFE.hello.say_hello': ('hello.html#say_hello', 'InFE/hello.py')},
-            'InFE.segmentation': {'InFE.segmentation.foo': ('segmentation.html#foo', 'InFE/segmentation.py')}}}
+            'InFE.setup': {}}}
