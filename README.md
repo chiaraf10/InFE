@@ -15,7 +15,7 @@ this point,the component extracted from PCA and features from the
 specific subject (such as age, sex .. ) will be mapped through a
 regression model to create a statistical shape model.
 
-So the project is divided in different speps such: S
+So the project is divided in different speps such:
 
 - Segmentation and Landmarking from 3D slicer
 - Morphing with pygem
