@@ -8,14 +8,14 @@ Individualized FE repo.
 The aim of this project is to create a open source workflow to create
 Statistical Shape Models (SSMT). By segmenting volume from human test
 samples and morphing a FE model to the segmented volume through
-Landmarks. Different morphed volumes are then alugned in space with
-General Procrustes Analysis. Pricipal Component Analysis (PCA) is
+Landmarks. Different morphed volumes are then aligned in space with
+General Procrustes Analysis (GPA). Pricipal Component Analysis (PCA) is
 performed on the morphed mesh to extract the principal components. From
 this point,the component extracted from PCA and features from the
 specific subject (such as age, sex .. ) will be mapped through a
 regression model to create a statistical shape model.
 
-So the project is divided in different speps such:
+So the project is divided in different speps such: S
 
 - Segmentation and Landmarking from 3D slicer
 - Morphing with pygem
