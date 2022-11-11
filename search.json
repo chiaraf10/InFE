@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "0_segmentation.html",
+    "href": "0_segmentation.html",
+    "title": "Segmentation & Landmarking",
+    "section": "",
+    "text": "Landmarking\n\nOnce obtained a volume, go to the “Markup” Module\nTo create landmarks, click on Point list and rename the setting.\nTo change the size of the control point go on Display and change the “Glyph size” to your liking.\nTo be able to place multiple points in sequence go to “Place a Control point” (Simbol with blue arrow and red dot) in the upper part of the Window. Click on the arrow, and select “Place Multiple Control Points”.\nTo have overview of the point in the left part go to the setting “Control point” and from there it is possible to rename the point or add a description.\nIf want to place a curve, click on “Curve” and place the control points.\nIf want to resample the curve, go to “Resample” and select under “Number of resampled points” the number of point to resample the curve. The resample setting will place equidistant points (Make sure the output node setting is to “Overwrite current node”).\nOnce registered the landmarks, go on “Save”. First save then entire scene in mrb format. To save single file, click on the purple box:\n\ndeselect all the items\nselect only one of interest (the segmentation volume and landmarks)\nSelect the destination folder\nselect the file format (fcsv for landmarks)\n\nThe landmarking is complete."
+  },
+  {
+    "objectID": "1_hello.html",
+    "href": "1_hello.html",
+    "title": "Read CSV files",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\n# test_eq(say_hello(\"Hamel\"), \"Hello Hamel!\")\n\n\nsource\n\n\nHelloSayer\n\n HelloSayer (to)\n\nSay hello to to using say_hello\n\nhello = HelloSayer(\"Alexis\")\nhello.say()\n\n'Hello Alexis!'"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "InFE",
+    "section": "",
+    "text": "workflow of InFE\nIndividualized FE repo.\nThe aim of this project is to create a open source workflow to create Statistical Shape Models (SSM). By segmenting volume from human test samples and morphing a FE model to the segmented volume through Landmarks. Different morphed volumes are then aligned in space with General Procrustes Analysis (GPA). Pricipal Component Analysis (PCA) is performed on the morphed mesh to extract the principal components. From this point,the component extracted from PCA and features from the specific subject (such as age, sex .. ) will be mapped through a regression model to create a statistical shape model.\nSo the project is divided in different steps such:\n–> Subject FE"
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "InFE",
+    "section": "Install",
+    "text": "Install\npip install InFE"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "InFE",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
